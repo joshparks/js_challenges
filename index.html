@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>JS Challenges</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css" />
+	
+	<script src="js/first_factorial.js"></script>
+	<script src="js/first_reverse.js"></script>
+	<script src="js/longest_word.js"></script>
+	<script src="js/simple_adding.js"></script>
+	<script src="js/letter_capitalize.js"></script>
+	<script src="js/time_convert.js"></script>
+	<script src="js/alpha_soup.js"></script>
+	<script src="js/match_number.js"></script>
+	
+</head>
+
+<body>
+	
+	<div class="row">
+	
+		<div class="small-2 columns">&nbsp;</div>
+		
+		<div class="small-8 columns">
+		
+			<table>
+			
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Input</th>
+						<th>Action</th>
+						<th>Result</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+				
+					<tr>
+						<td>First Factorial</td>
+						<td><input type="text" id="first_factorial_input" value="4" /></td>
+						<td><button class="button radius" onclick="first_factorial.run()">run</button></td>
+						<td><span id="first_factorial_result"></span></td>
+						<td>Take the num being passed and return the factorial of it.<br />e.g. 4 => 24 or {4 * 3 * 2 * 1}</td>
+					</tr>
+					
+					<tr>
+						<td>First Reverse</td>
+						<td><input type="text" id="first_reverse_input" value="reverse me" /></td>
+						<td><button class="button radius" onclick="first_reverse.run()">run</button></td>
+						<td><span id="first_reverse_result"></span></td>
+						<td>Take the string being passed and return in reversed order.<br />e.g. reverse => esrever</td>
+					</tr>
+					
+					<tr>
+						<td>Longest Word</td>
+						<td><input type="text" id="longest_word_input" value="which is longest" /></td>
+						<td><button class="button radius" onclick="longest_word.run()">run</button></td>
+						<td><span id="longest_word_result"></span></td>
+						<td>Take the sentence being passed and return the largest word.<br />e.g. find the longest one => longest</td>
+					</tr>
+					
+					<tr>
+						<td>Simple Adding</td>
+						<td><input type="text" id="simple_adding_input" value="6" /></td>
+						<td><button class="button radius" onclick="simple_adding.run()">run</button></td>
+						<td><span id="simple_adding_result"></span></td>
+						<td>Add up all the numbers from 1 to number.<br />e.g. 4 => 10 {1 + 2 + 3 + 4}</td>
+					</tr>
+
+					<tr>
+						<td>Letter Capitalize</td>
+						<td><input type="text" id="letter_capitalize_input" value="capitalize me" /></td>
+						<td><button class="button radius" onclick="letter_capitalize.run()">run</button></td>
+						<td><span id="letter_capitalize_result"></span></td>
+						<td>Capitalize first letter of each word.<br />e.g. capitalize me => Capitalize Me</td>
+					</tr>
+
+					<tr>
+						<td>Time Convert</td>
+						<td><input type="text" id="time_convert_input" value="63" /></td>
+						<td><button class="button radius" onclick="time_convert.run()">run</button></td>
+						<td><span id="time_convert_result"></span></td>
+						<td>Take the number passed and return the number of hours and minutes it converts to.<br />e.g. 63 => 1:03</td>
+					</tr>
+					
+					<tr>
+						<td>Alphabet Soup</td>
+						<td><input type="text" id="alpha_soup_input" value="jester" /></td>
+						<td><button class="button radius" onclick="alpha_soup.run()">run</button></td>
+						<td><span id="alpha_soup_result"></span></td>
+						<td>Take the string passed and return the it sorted alphabetically by letter.<br />e.g. apple => aelpp</td>
+					</tr>
+					
+					<tr>
+						<td>Match Number</td>
+						<td><input type="text" id="match_number_input" value="1" /></td>
+						<td><button class="button radius" onclick="match_number.run()">run</button></td>
+						<td><span id="match_number_result"></span></td>
+						<td>Guess a number between 1-10, return if matches computer number.<br />e.g. (you) 1 (cpu) 1 => match</td>
+					</tr>
+					
+				</tbody>
+			
+			</table>
+		
+		</div>
+		
+		<div class="small-2 columns">&nbsp;</div>
+		
+	</div>
+	
+	<div class="row">
+	
+		<div class="small-2 columns">&nbsp;</div>
+		
+		<div class="small-8 columns">
+		
+			<p>Challenges from <a href="https://coderbyte.com/challenges">CoderByte.com</a></p>		
+		
+		</div>
+		
+		<div class="small-2 columns">&nbsp;</div>
+		
+	</div>
+	
+</body>
+
+</html>
